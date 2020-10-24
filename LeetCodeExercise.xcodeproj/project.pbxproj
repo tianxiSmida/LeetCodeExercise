@@ -99,6 +99,8 @@
 		518F348A25440F320057DF3D /* LeetCodeExercise */ = {
 			isa = PBXGroup;
 			children = (
+				518F34BE25440F840057DF3D /* Easy */,
+				518F34BF25440F9A0057DF3D /* Medium */,
 				518F348B25440F320057DF3D /* AppDelegate.swift */,
 				518F348D25440F320057DF3D /* SceneDelegate.swift */,
 				518F348F25440F320057DF3D /* ViewController.swift */,
@@ -113,6 +115,8 @@
 		518F34A125440F340057DF3D /* LeetCodeExerciseTests */ = {
 			isa = PBXGroup;
 			children = (
+				518F34C025440FD20057DF3D /* Easy */,
+				518F34C125440FD90057DF3D /* Medium */,
 				518F34A225440F340057DF3D /* LeetCodeExerciseTests.swift */,
 				518F34A425440F340057DF3D /* Info.plist */,
 			);
@@ -126,6 +130,36 @@
 				518F34AF25440F340057DF3D /* Info.plist */,
 			);
 			path = LeetCodeExerciseUITests;
+			sourceTree = "<group>";
+		};
+		518F34BE25440F840057DF3D /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		518F34BF25440F9A0057DF3D /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		518F34C025440FD20057DF3D /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Easy;
+			path = ../LeetCodeExerciseUITests/Easy;
+			sourceTree = "<group>";
+		};
+		518F34C125440FD90057DF3D /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Medium;
+			path = ../LeetCodeExerciseUITests/Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
